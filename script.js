@@ -1,3 +1,3 @@
 const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
+h2.textContent = "Marisa Saunders is a producer & audio engineer engineer based in Brooklyn. She graduated in 2019 from The New School with a degree in liberal arts, Attended the Recording Workshop, and is currently enrolled at The Flatiron School. Marisa isa currenly doing freelance mixing and production, as well as mix assisting for Tony Maserati, and hopes to be working as a software engineer in the near future.";
 document.querySelector("body").appendChild(h2);
