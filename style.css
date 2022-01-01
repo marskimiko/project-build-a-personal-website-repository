@@ -1,5 +1,5 @@
 body {
-    background: green;
+    background: red;
   }
 
   h1 {
@@ -16,4 +16,12 @@ h2 {
     width: 15%;
     font-size: 17px;
     font-family: helvetica;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    position: relative;
+    left: 850px;
+    bottom: 325px;
 }
