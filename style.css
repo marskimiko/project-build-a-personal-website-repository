@@ -7,6 +7,7 @@
 */
 
 body {
+    margin: 0;
     background: black;
   }
 
@@ -21,7 +22,6 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: blue;
     font-family: Arial, Helvetica, sans-serif;
 }
 .logo {
@@ -51,20 +51,25 @@ a.active,a:hover {
     transition: .5s;
 }
 
-
-h2 {
-    display: block;
-    color: white; 
-    font-size: 17px;
-    font-family: helvetica;
+.container {
+    padding: 3em;
+    display: grid;
+    grid-gap: 2em;
+}
+.container h2 {
+    color: white;
     text-align: center;
-    width: 50%;
-    padding-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 30%;
+    padding-right: 30%
 }
 
-img {
+.container img {
     display: block;
-    margin-left: 50%;
-    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30%;
+    width: 20%;
     height: auto;
 }
